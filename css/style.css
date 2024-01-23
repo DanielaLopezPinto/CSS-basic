@@ -3,16 +3,117 @@ body{
     background: var(--colorPrimary);
 }
 
-.box{
-    background: var(--color);
-    display: inline-block;
-    /* margin:10px 50px 5px; */
-    /* padding:10px 50px 5px; */
-    /* border: 1px solid orchid; */
-    /* outline:1px solid green; */
+.box1{
+    background: var(--colorboxes);
+    position: relative;
     margin-bottom: 10px;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px #0179e9, 0px 0px 5px #07ec7a;;
+    margin-right: 100px;
+    width: 250px;
+    height: 250px;
 }
+
+.box2{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    background: var(--colorboxes);
+    width: 250px;
+    height: 250px;
+}
+
+.box3{
+    position: absolute;
+    margin: 300px auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--colorboxes);
+    width: 400px;
+    height: 200px;
+}
+
+.box4{
+    position: absolute;
+    margin: 550px auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--colorboxes);
+    width: 400px;
+    height: 150px;
+}
+
+
+.son{
+    background: var(--colorson);
+    width: 100px;
+    height: 100px;
+}
+
+#son1{
+    position:absolute;
+    margin: auto;
+    top:0;
+    right: 0;
+    bottom:0;
+}
+
+#son2{
+    position:absolute;
+    margin: auto;
+    top:150px;
+    right:50px;
+    bottom:0px;
+}
+
+#son3{
+    position:absolute;
+    margin: auto;
+    top:150px;
+    right:150px;
+    bottom:0px;
+}
+
+#son4{
+    position:absolute;
+    margin: auto;
+    top:100px;
+    right:300px;
+    bottom:0px;
+}
+
+#son5{
+    position:absolute;
+    margin: auto;
+    top:0px;
+    left:0px;
+    bottom:50px;
+}
+
+#son6{
+    position:absolute;
+    margin: auto;
+    top:0px;
+    right:0px;
+    bottom:50px;
+
+}
+
+
+.son span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/* .box:nth-child(3){
+    background: red;
+    position:absolute;
+    left: 300px;
+    right: 0;
+    top: 0;
+
+} */
